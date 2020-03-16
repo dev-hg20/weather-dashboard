@@ -1,0 +1,17 @@
+#forecast-cards{
+  width: 80%
+}
+
+#weather-today{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+#city-list button{
+  width: 100%;
+}
+
+h1{
+  line-height:300%;
+  font-weight: bold; 
+  font-style: italic;
+}

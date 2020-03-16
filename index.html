@@ -1,0 +1,57 @@
+<html lang="en">
+  <head> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Weather</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="navbar navbar-dark bg-dark">
+          <span class="navbar-brand mb-0 h1">Weather Dashboard</span>
+          <form class="form-inline">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+              id ="search-text-box"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="click" id ="button-id">
+              Search
+            </button>
+          </form>
+        </nav>
+      </header>
+      <br />
+      <div class="row" >
+        <div class="col-sm-4" id="city-list">
+        </div>
+        <div class="col-sm-8" id="weather-today">
+          <div class="d-inline-flex row">
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Five Day Forecast:</h2>
+        </div>
+      </div>  
+      <div class="row" id="fiveDayForecast">        
+        <div class="d-inline-flex flex-row rounded" id="forecast-cards">
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
